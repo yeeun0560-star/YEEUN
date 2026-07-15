@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>박예은 · 서비스 기획 포트폴리오</title>
+  <meta name="description" content="고객의 눈으로 보고, 고객의 입장에서 생각하는 서비스 기획자 박예은의 포트폴리오" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Progress bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Nav -->
+  <header class="nav" id="nav">
+    <a href="#hero" class="nav__logo">PORT<span>FOLIO.</span></a>
+    <nav class="nav__links">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Outro</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="메뉴 열기">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__inner">
+      <p class="hero__eyebrow reveal">SERVICE PLANNER PORTFOLIO</p>
+      <h1 class="hero__title">
+        <span class="reveal">고객의 눈으로 보고,</span>
+        <span class="reveal">고객의 입장에서 생각하는</span>
+        <span class="reveal hero__title--accent">기획자입니다. <em>✍️</em></span>
+      </h1>
+      <div class="hero__tags reveal">
+        <span>#유통업</span>
+        <span>#디지털사업기획</span>
+        <span>#앱서비스기획</span>
+        <span>#UIUX기획</span>
+      </div>
+      <a href="#work" class="hero__scroll reveal">
+        <span>SCROLL</span>
+        <span class="hero__scroll-line"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="section-head reveal">
+      <span class="section-head__num">01</span>
+      <h2 class="section-head__title">About</h2>
+    </div>
+    <div class="about__grid">
+      <p class="about__lead reveal">
+        회사의 목표를 위해 <strong>주인의식</strong>을 갖고, 회사의 어느 곳에서든
+        저의 역량을 나누고 배우며 <strong>소통하는 커뮤니케이터</strong>로
+        성장하고 있습니다.
+      </p>
+      <div class="about__skills">
+        <div class="skill reveal">
+          <h3>디지털 사업 기획</h3>
+          <p>우수고객 서비스부터 마이크로 사이트, 앱 리뉴얼까지 유통 디지털 전반의 서비스를 기획합니다.</p>
+        </div>
+        <div class="skill reveal">
+          <h3>UI / UX 설계</h3>
+          <p>Figma 기반 화면 설계와 사용자 흐름 정의, 어드민 운영 시스템까지 직접 설계합니다.</p>
+        </div>
+        <div class="skill reveal">
+          <h3>데이터 기반 검증</h3>
+          <p>동의율·클릭·전환 데이터를 분석해 기획의 성과를 정량적으로 검증하고 개선합니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section class="work" id="work">
+    <div class="section-head reveal">
+      <span class="section-head__num">02</span>
+      <h2 class="section-head__title">Selected Work</h2>
+    </div>
+    <div class="projects" id="projects"><!-- injected by script.js --></div>
+  </section>
+
+  <!-- Contact / Outro -->
+  <section class="contact" id="contact">
+    <div class="contact__inner">
+      <p class="contact__eyebrow reveal">OUTRO</p>
+      <h2 class="contact__title reveal">
+        고객관점으로 일하고 소통하는<br />
+        <mark>서비스 기획자</mark> 입니다.
+      </h2>
+      <p class="contact__desc reveal">
+        새로운 서비스에 대한 이야기, 함께 나누고 싶습니다.
+      </p>
+    </div>
+    <footer class="footer">
+      <span>© 2026 Park Ye·eun</span>
+      <span>Service Planner Portfolio</span>
+    </footer>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
